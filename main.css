@@ -1,0 +1,9 @@
+body {
+  background-color: #333333;
+  margin: 0px; }
+
+.headbar {
+  background-color: #111111;
+  position: static;
+  width: 100%;
+  height: 1vh; }
