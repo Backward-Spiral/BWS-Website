@@ -1,5 +1,5 @@
-$background_grey: #333333;
-$highlight_black: #111111;
+$background_grey: #394647;
+$highlight_black: #151515;
 
 body {
     background-color: $background_grey;
@@ -8,7 +8,11 @@ body {
 
 .headbar {
     background-color: $highlight_black;
-    position: static;
+    position: fixed;
     width: 100%;
-    height: 1vh;
+    height: 4vh;
+}
+
+.logo {
+    
 }
