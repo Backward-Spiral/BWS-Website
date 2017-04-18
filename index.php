@@ -6,7 +6,7 @@
     </head>
     <body>
         <div class="headbar"> 
-            <div class="logo">Backwards Spiral</div>
+            <div class="logo"><img href="CornerLogo.png" class="logoPic"/>Backwards Spiral</div>
         </div>
     </body>
 </html>
