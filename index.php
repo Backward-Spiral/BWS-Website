@@ -2,11 +2,14 @@
 <html>
     <head>
         <title> </title>
+        <link rel="sytlesheet" type="text/css" href="Fonts/Inconsolata/stylesheet.css" />
+        <link rel="sytlesheet" type="text/css" href="Fonts/Millenia/stylesheet.css" />
         <link rel="stylesheet" type="text/css" href="CSS/main.css" />
     </head>
     <body>
         <div class="headbar"> 
-            <div class="logo"><img src="Pics/CornerLogo.png" class="logoPic"/>Backwards Spiral</div>
+            <img src="Pics/TransparentSpiral.png" class="logoPic"/>
+            <p class="logo">Backwards Spiral</p>
         </div>
     </body>
 </html>

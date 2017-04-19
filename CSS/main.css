@@ -6,11 +6,18 @@ body {
   background-color: #121212;
   position: fixed;
   width: 100%;
-  height: 8vh; }
+  height: 5vh; }
 
 .logo {
-  color: #AE0000; }
+  color: #AE0000;
+  position: absolute;
+  left: 5%;
+  top: -1%;
+  font-family: Millennia;
+  font-size: 3vh; }
 
 .logoPic {
-  z-index: 1;
-  height: 8vh; }
+  position: absolute;
+  top: .5vh;
+  height: 4vh;
+  left: 1%; }
