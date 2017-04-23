@@ -16,10 +16,10 @@ body {
 .logo {
     color: #AE0000;
     position: absolute;
-    left: 5%;
-    top: -1%;
+    left: 3%;
+    top: -5%;
     font-family: Millennia;
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 .logoPic {
@@ -28,3 +28,15 @@ body {
     height:4vh;
     left: 1%;
 }
+
+.menuOption {
+    float:right;
+    color: #AE0000;
+    font-family: Millennia;
+    font-size: 2vh;
+    margin-right: .8vw;
+}
+
+li {
+    list-style-type: none;
+} 
