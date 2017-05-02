@@ -2,8 +2,8 @@
 <html>
     <head>
         <title> </title>
-        <link rel="sytlesheet" type="text/css" href="Fonts/Inconsolata/stylesheet.css" />
-        <link rel="sytlesheet" type="text/css" href="Fonts/Millenia/stylesheet.css" />
+        <link rel="sytlesheet" type="text/css" href="Fonts/Inconsolata/stylesheet.css" charset="utf-8" />
+        <link rel="sytlesheet" type="text/css" href="Fonts/Millenia/stylesheet.css" charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="CSS/main.css" />
     </head>
     <body>
