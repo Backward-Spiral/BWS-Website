@@ -7,15 +7,21 @@
         <link rel="stylesheet" type="text/css" href="CSS/main.css" />
     </head>
     <body>
-        <div class="headbar background"> 
+
+        <!-- Head bar markup. Is fixed with logo and a few links on the bar. -->
+        <div class="headbar highlight_black"> 
             <img src="Pics/TransparentSpiral.png" class="logoPic"/>
-            <p class="logo menuFont">Backwards Spiral</p>
-            <ul>
-                <li class="menuOption menuFont" id="4">contact();</li>
-                <li class="menuOption menuFont" id="3">about;</li>
-                <li class="menuOption menuFont" id="2">"games"</li>
-                <li class="menuOption menuFont" id="1">Home:</li>
+            <p class="logo headerFont">Backwards Spiral</p>
+            <ul> <!-- Menu markup -->
+                <li class="menuOption headerFont" id="4">contact();</li>
+                <li class="menuOption headerFont" id="3">about;</li>
+                <li class="menuOption headerFont" id="2">"games"</li>
+                <li class="menuOption headerFont" id="1">Home:</li>
             </ul>
         </div>
+
+        <!-- Test code for an article body -->
+        <div> </div>
+        
     </body>
 </html>
