@@ -2,6 +2,8 @@ $background_grey: #252525;
 $highlight_black: #121212;
 $highlight: #AE0000;
 
+
+/* Background should be a lighter color than the head bars are */
 body {
     background-color: $background_grey;
     margin: 0px;
@@ -11,28 +13,33 @@ li {
     list-style-type: none;
 }
 
+/* For the fixed menu bar. Makes it static too */
 .headbar {
     position: fixed;
     width: 100%;
     height: 5vh;
 }
 
-.background {
+/* Mostly used with header bars, but its a pretty open class */
+.highlight_black {
     background-color: $highlight_black;
 }
 
-.menuFont{
-    font-family: Millennia;
+/* Font for emphasis or titles, not body */
+.headerFont{
+    font-family: Millenia;
     font-size: 2vh;
+    color: $highlight;
 }
 
+/* Logo text in the menu bar */
 .logo {
-    color: $highlight;
     position: absolute;
     left: 3%;
     top: -5%;
 }
 
+/* Pic of logo in front of text */
 .logoPic {
     position: absolute;
     top: .5vh;
@@ -40,10 +47,15 @@ li {
     left: 1%;
 }
 
+/* Menu items position */
 .menuOption {
     float:right;
-    color: $highlight;
     margin-right: .8vw;
 }
 
+/* Aricle container */
+.article {
+    position: relative;
+    
+}
  
