@@ -1,6 +1,6 @@
 /* Background should be a lighter color than the head bars are */
 body {
-  background-color: #252525;
+  background-color: #292929;
   margin: 0px; }
 
 li {
@@ -19,14 +19,21 @@ li {
 /* Font for emphasis or titles, not body */
 .headerFont {
   font-family: 'Fira Mono';
-  font-size: 2vh;
+  font-size: 1.5vh;
+  color: #7c838c; }
+
+/* Highlights certain header stuff based on the user's location in the webpage and whether or not I want it to */
+.highlightHeader {
   color: #AE0000; }
 
-/* Logo text in the menu bar */
-.logo {
+/* Logo Skin */
+.logoFont {
   position: absolute;
-  left: 3%;
-  top: -5%; }
+  font-family: 'Fira Mono';
+  font-size: 2.25vh;
+  color: #AE0000;
+  left: 5vh;
+  top: -15%; }
 
 /* Pic of logo in front of text */
 .logoPic {
@@ -37,11 +44,30 @@ li {
 
 /* Menu items position */
 .menuOption {
-  float: right;
-  margin-right: .8vw; }
+  float: left;
+  margin-right: 2vw; }
+
+/* Container for the menu options to put them in the correct place without destroying their float values */
+.menuContainer {
+  position: absolute;
+  top: 0%;
+  right: 4%; }
 
 /* Aricle container */
 .article {
-  position: relative; }
+  position: relative;
+  max-width: 3000px;
+  width: 70%;
+  padding-bottom: 30px;
+  left: 15%;
+  /* temp */
+  background: #121212; }
+
+/* whitespace container to displace the first article from behind headbar */
+.whitespace {
+  height: 6vh;
+  position: relative;
+  left: 5%;
+  width: 90%; }
 
 /*# sourceMappingURL=main.css.map */

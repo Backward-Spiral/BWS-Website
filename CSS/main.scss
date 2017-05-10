@@ -1,7 +1,7 @@
-$background_grey: #252525;
+$background_grey: #292929; // Changed from #252525 so, if it's too bright change it back
 $highlight_black: #121212;
 $highlight: #AE0000;
-
+$text_color: #7c838c;
 
 /* Background should be a lighter color than the head bars are */
 body {
@@ -28,15 +28,23 @@ li {
 /* Font for emphasis or titles, not body */
 .headerFont{
     font-family: 'Fira Mono';
-    font-size: 2vh;
+    font-size: 1.5vh;
+    color: $text_color;
+}
+
+/* Highlights certain header stuff based on the user's location in the webpage and whether or not I want it to */
+.highlightHeader {
     color: $highlight;
 }
 
-/* Logo text in the menu bar */
-.logo {
+/* Logo Skin */
+.logoFont {
     position: absolute;
-    left: 3%;
-    top: -5%;
+    font-family: 'Fira Mono';
+    font-size: 2.25vh;
+    color: $highlight;
+    left: 5vh;
+    top: -15%;
 }
 
 /* Pic of logo in front of text */
@@ -49,14 +57,34 @@ li {
 
 /* Menu items position */
 .menuOption {
-    float:right;
-    margin-right: .8vw;
+    float: left;
+    margin-right: 2vw;
+}
+
+/* Container for the menu options to put them in the correct place without destroying their float values */
+.menuContainer {
+    position: absolute;
+    top: 0%;
+    right: 4%;
 }
 
 /* Aricle container */
 .article {
     position: relative;
     max-width: 3000px;
-    width: 90%;
+    width: 70%;
     padding-bottom: 30px;
+    left: 15%;
+
+
+    /* temp */
+    background: $highlight_black;
+}
+
+/* whitespace container to displace the first article from behind headbar */
+.whitespace {
+    height: 6vh;
+    position: relative;
+    left:5%;
+    width: 90%;
 }

@@ -12,17 +12,18 @@
         <!-- Head bar markup. Is fixed with logo and a few links on the bar. -->
         <div class="headbar highlight_black"> 
             <img src="Pics/TransparentSpiral.png" class="logoPic"/>
-            <p class="logo headerFont">Backwards Spiral</p>
-            <ul> <!-- Menu markup -->
-                <li class="menuOption headerFont" id="4">contact();</li>
-                <li class="menuOption headerFont" id="3">about;</li>
+            <p class="logo logoFont">Backwards Spiral</p>
+            <ul class="menuContainer"> <!-- Menu markup -->
+                <li class="menuOption headerFont highlightHeader" id="1">home:</li>
                 <li class="menuOption headerFont" id="2">"games"</li>
-                <li class="menuOption headerFont" id="1">Home:</li>
+                <li class="menuOption headerFont" id="3">$about</li>
+                <li class="menuOption headerFont" id="4">contact();</li>
             </ul>
         </div>
 
         <!-- Test code for an article body -->
-        <div> </div>
+        <div class="whitespace"> </div>
+        <div class="article"> </div>
         
     </body>
 </html>
