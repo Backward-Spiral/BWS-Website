@@ -29,29 +29,35 @@ li {
 /* Logo Skin */
 .logoFont {
   position: absolute;
+  left: 3.5vh;
+  top: -1vh;
   font-family: 'Fira Mono';
   font-size: 2.25vh;
-  color: #AE0000;
-  left: 5vh;
-  top: -15%; }
+  color: #AE0000; }
 
 /* Pic of logo in front of text */
 .logoPic {
   position: absolute;
-  top: .5vh;
   height: 4vh;
-  left: 1%; }
+  top: .5vh;
+  left: .5vh; }
+
+/* Container for the Logo to get the positioning right */
+.logoContainer {
+  position: absolute;
+  width: 30vh; }
 
 /* Menu items position */
 .menuOption {
+  position: relative;
   float: left;
-  margin-right: 2vw; }
+  margin-right: 2.2vw; }
 
 /* Container for the menu options to put them in the correct place without destroying their float values */
 .menuContainer {
   position: absolute;
   top: 0%;
-  right: 4%; }
+  right: 1%; }
 
 /* Aricle container */
 .article {
@@ -59,8 +65,10 @@ li {
   max-width: 3000px;
   width: 70%;
   padding-bottom: 30px;
-  left: 15%;
-  /* temp */
+  left: 15%; }
+
+/*Article Skin */
+.articleSkin {
   background: #121212; }
 
 /* whitespace container to displace the first article from behind headbar */
