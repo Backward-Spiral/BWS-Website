@@ -59,6 +59,17 @@ li {
   top: 0%;
   right: 1%; }
 
+/* whitespace container to displace the first article from behind headbar */
+.whitespace {
+  height: 6vh;
+  position: relative;
+  left: 5%;
+  width: 90%; }
+
+/*Article Skin */
+.articleSkin {
+  background: #121212; }
+
 /* Aricle container */
 .article {
   position: relative;
@@ -67,15 +78,48 @@ li {
   padding-bottom: 30px;
   left: 15%; }
 
-/*Article Skin */
-.articleSkin {
-  background: #121212; }
+/* Article Title */
+.title {
+  position: absolute;
+  left: 2vh;
+  top: -1vh;
+  font-size: 2vh; }
 
-/* whitespace container to displace the first article from behind headbar */
-.whitespace {
-  height: 6vh;
+/* Author's Pictures */
+.authorPic {
+  background: #AE0000;
+  width: 4vh;
+  height: 4vh;
+  position: absolute;
+  right: 2vh; }
+
+/* Container for the article header */
+.articleHeader {
   position: relative;
-  left: 5%;
-  width: 90%; }
+  height: 4vh;
+  top: 1vh;
+  border-bottom: 1px solid;
+  border-bottom-color: #AE0000; }
+
+/* For elements inside the article header */
+.insideArticleHeader {
+  float: left; }
+
+/* Date Next to the Author's Pictures */
+.authorDate {
+  position: absolute;
+  right: 7vh; }
+
+/* Body text coloring and size */
+.bodyFont {
+  font-family: 'Fira Mono';
+  color: #7c838c;
+  text-indent: 4vw; }
+
+/* Container for article */
+.articleBody {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 2%; }
 
 /*# sourceMappingURL=main.css.map */

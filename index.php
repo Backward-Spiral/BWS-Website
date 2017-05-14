@@ -27,10 +27,13 @@
         <div class="whitespace"> </div>
         <div class="article articleSkin">
             <div class="articleHeader">
-                
+                <p class="title headerFont insideArticleHeader">This is a title!</p>
+                <p class="authorDate headerFont insideArticleHeader">4/04/17 - By: Author</p>
+                <img class="authorPic insideArticleHeader" src="Pics/whiteSquare.png" />        
             </div> 
             <div class="articleBody">
-
+                <p class="body bodyFont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
             </div>
         </div>
         
